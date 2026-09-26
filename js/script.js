@@ -3,7 +3,7 @@ document.querySelectorAll(".dropdown-btn").forEach(btn=>btn.addEventListener("cl
 document.querySelectorAll(".nav a").forEach(a=>a.addEventListener("click",()=>nav?.classList.remove("open")));
 document.querySelectorAll("#year").forEach(el=>el.textContent=new Date().getFullYear());
 
-const FORM_ENDPOINT="https://formsubmit.co/ajax/hello@kwcemergencyrestorations.ca";
+const FORM_ENDPOINT="https://formsubmit.co/ajax/personal@elequen.com";
 document.querySelectorAll(".quote-form").forEach(form=>{
   form.addEventListener("submit",async e=>{
     e.preventDefault();
